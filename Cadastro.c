@@ -4,16 +4,28 @@
 
 int main(){
 
-char nome[100];
+char nome[50];
 int idade;
 int matricula;
 float notas;
-
+int opcao;
 
 printf("***************************************************\n");
-printf("* Seja Bem-Vindo ao sistema de cadastro de alunos *\n");
+printf("* Seja Bem-Vindo ao sistema de Cadastro de Alunos *\n");
 printf("***************************************************\n");
 printf("\n\n");
+
+//Menu de cadastro de alunos 
+printf("------Menu de Cadastro de Alunos------\n");
+printf("1 - Cadastrar Aluno\n");
+printf("2 - Listar Alunos\n");
+printf("3 - Buscar por Nomes\n");
+printf("4 - Sair\n");
+printf("Escolha uma opção: \n");
+scanf("%d",&opcao);
+
+
+
 
 
 printf("Digite o nome completo do aluno: \n");
