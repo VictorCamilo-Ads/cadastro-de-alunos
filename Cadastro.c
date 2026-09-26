@@ -34,7 +34,7 @@ printf("1 - Cadastrar Aluno\n");
 printf("2 - Listar Alunos\n");
 printf("3 - Buscar por Nomes\n");
 printf("4 - Sair\n");
-printf("Escolha uma opção: \n");
+printf("Escolha uma opcao: \n");
 scanf("%d",&opcao);
 
     while (getchar() != '\n'); // Limpa o buffer do teclado para evitar problemas com fgets
